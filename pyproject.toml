@@ -1,0 +1,11 @@
+[project]
+name = "pic-upv-lab1"
+version = "0.1.0"
+description = "PIC PERTE Chair - Laboratory 1. Waveguides Design"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gdsfactory==9.34.0",
+    "gplugins[tidy3d]==2.0.1",
+    "pytz",
+]
